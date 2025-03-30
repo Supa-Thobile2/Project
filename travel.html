@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adventure Travel Blog - Explore the world's most exciting destinations with our travel guides and tips">
-    <title>Adventure Seekers | Travel Blog</title>
+    <meta name="description" content="Wanderlust Adventures - Your guide to adventure travel worldwide. Discover hidden gems, travel tips, and breathtaking destinations.">
+    <meta name="keywords" content="travel, adventure, backpacking, hiking, destinations, travel blog">
+    <title>Wanderlust Adventures | Adventure Travel Blog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+
+      
         <div class="header__container">
             <div class="header__logo">
                 <h1>Adventure Seekers</h1>
                 <p>Explore the extraordinary</p>
+
             </div>
             <nav class="header__nav">
                 <div class="search-box">
@@ -21,114 +26,350 @@
                     <button><i class="fas fa-search"></i></button>
                 </div>
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="destinations.html">Destinations</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                
+
             </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
         </div>
     </header>
 
-    <main class="container">
-        <section class="featured-destination">
-            <div class="featured-content">
-                <h2>Discover Nepal</h2>
-                <p>Experience the majestic Himalayas and rich cultural heritage of this Himalayan kingdom.</p>
-                <a href="blog-post-1.html" class="btn">Read More</a>
-            </div>
-        </section>
-
-        <div class="content-wrapper">
-            <section class="main-content">
-                <h2>Latest Adventures</h2>
-                
-                <article class="blog-post-preview">
-                    <img src="images/patagonia.jpg" alt="Patagonia landscape">
-                    <div class="post-content">
-                        <h3><a href="blog-post-1.html">Trekking in Patagonia</a></h3>
-                        <p class="post-meta">Posted on June 15, 2023 | <a href="#">Adventure</a></p>
-                        <p>Our 2-week journey through the stunning landscapes of Chilean and Argentine Patagonia, including Torres del Paine and Los Glaciares National Parks.</p>
-                        <a href="blog-post-1.html" class="read-more">Continue Reading</a>
-                    </div>
-                </article>
-                
-                <article class="blog-post-preview">
-                    <img src="images/costa-rica.jpg" alt="Costa Rica rainforest">
-                    <div class="post-content">
-                        <h3><a href="blog-post-2.html">Wildlife in Costa Rica</a></h3>
-                        <p class="post-meta">Posted on May 3, 2023 | <a href="#">Wildlife</a>, <a href="#">Eco-Tourism</a></p>
-                        <p>Exploring Costa Rica's incredible biodiversity, from the cloud forests of Monteverde to the beaches of Tortuguero where sea turtles nest.</p>
-                        <a href="blog-post-2.html" class="read-more">Continue Reading</a>
-                    </div>
-                </article>
-            </section>
-
-            <aside class="sidebar">
-                <div class="sidebar-widget">
-                    <h3>About Us</h3>
-                    <img src="images/about-us.jpg" alt="About Adventure Seekers">
-                    <p>We're Sarah and Mark, passionate travelers who left our 9-5 jobs to explore the world's most adventurous destinations.</p>
-                    <a href="about.html" class="btn">Our Story</a>
-                </div>
-                
-                <div class="sidebar-widget">
-                    <h3>Popular Destinations</h3>
-                    <ul class="popular-destinations">
-                        <li><a href="#">Nepal Himalayas</a></li>
-                        <li><a href="#">Patagonia Trekking</a></li>
-                        <li><a href="#">Costa Rica Wildlife</a></li>
-                        <li><a href="#">New Zealand Adventures</a></li>
-                        <li><a href="#">Iceland Road Trip</a></li>
-                    </ul>
-                </div>
-                
-                <div class="sidebar-widget">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </aside>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore the Wild Patagonia</h2>
+            <h1>Torres del Paine Adventure</h1>
+            <p>Discover the breathtaking landscapes of Chile's most famous national park</p>
+            <a href="#featured" class="btn">Read More</a>
         </div>
-    </main>
+    </section>
+
+    <section id="featured" class="featured-post">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Torres del Paine National Park">
+                </div>
+                <div class="featured-text">
+                    <span class="category">Adventure Travel</span>
+                    <h2>Hiking the W Trek in Torres del Paine</h2>
+                    <p class="meta">Posted on <span>June 15, 2023</span> by <span>Sarah Johnson</span></p>
+                    <p>Torres del Paine National Park in Chilean Patagonia is one of the most spectacular wilderness areas in the world. The famous W Trek takes you through valleys, beside glacial lakes, and up to the base of the iconic granite towers that give the park its name...</p>
+                    <a href="#" class="btn">Continue Reading</a>
+                    <div class="post-stats">
+                        <span><i class="far fa-comment"></i> 24 Comments</span>
+                        <span><i class="far fa-heart"></i> 156 Likes</span>
+                        <span><i class="fas fa-share-alt"></i> Share</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nepal Himalayas">
+                    <div class="card-content">
+                        <h3>Nepal</h3>
+                        <p>Everest Base Camp Trek</p>
+                        <a href="#" class="btn-small">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="New Zealand mountains">
+                    <div class="card-content">
+                        <h3>New Zealand</h3>
+                        <p>Routeburn Track</p>
+                        <a href="#" class="btn-small">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Peru mountains">
+                    <div class="card-content">
+                        <h3>Peru</h3>
+                        <p>Inca Trail to Machu Picchu</p>
+                        <a href="#" class="btn-small">Explore</a>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Iceland landscape">
+                    <div class="card-content">
+                        <h3>Iceland</h3>
+                        <p>Laugavegur Trek</p>
+                        <a href="#" class="btn-small">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-posts">
+        <div class="container">
+            <div class="blog-container">
+                <main class="posts">
+                    <h2 class="section-title">Latest Adventures</h2>
+                    <article class="post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Hiker in mountains">
+                            <span class="category">Hiking</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>5 Essential Items for Multi-Day Hikes</h3>
+                            <p class="meta">Posted on <span>May 28, 2023</span> by <span>Mike Thompson</span></p>
+                            <p>Packing for a multi-day hike can be daunting, especially if you're new to backpacking. After completing dozens of long-distance hikes around the world, I've narrowed down the five most essential items you should never leave home without...</p>
+                            <a href="#" class="btn-small">Read More</a>
+                            <div class="post-stats">
+                                <span><i class="far fa-comment"></i> 18 Comments</span>
+                                <span><i class="far fa-heart"></i> 92 Likes</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Canyon landscape">
+                            <span class="category">Canyoning</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>Canyoning in the Swiss Alps: A Beginner's Guide</h3>
+                            <p class="meta">Posted on <span>April 15, 2023</span> by <span>Emma Wilson</span></p>
+                            <p>Canyoning combines hiking, climbing, swimming, and rappelling through spectacular canyon landscapes. Switzerland offers some of the best canyoning in Europe, with routes suitable for complete beginners to advanced adventurers...</p>
+                            <a href="#" class="btn-small">Read More</a>
+                            <div class="post-stats">
+                                <span><i class="far fa-comment"></i> 32 Comments</span>
+                                <span><i class="far fa-heart"></i> 145 Likes</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tropical beach">
+                            <span class="category">Island Hopping</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>Philippines Island Hopping on a Budget</h3>
+                            <p class="meta">Posted on <span>March 3, 2023</span> by <span>David Chen</span></p>
+                            <p>The Philippines consists of over 7,000 islands, making it a paradise for island hoppers. While some resorts can be expensive, it's entirely possible to explore these tropical wonders on a backpacker's budget. Here's how...</p>
+                            <a href="#" class="btn-small">Read More</a>
+                            <div class="post-stats">
+                                <span><i class="far fa-comment"></i> 41 Comments</span>
+                                <span><i class="far fa-heart"></i> 203 Likes</span>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="pagination">
+                        <a href="#" class="btn">Older Posts</a>
+                        <a href="#" class="btn">Newer Posts</a>
+                    </div>
+                </main>
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+                        <h3>About Me</h3>
+                        <div class="about-widget">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Author photo">
+                            <p>Hi, I'm Sarah! I left my corporate job in 2015 to travel the world and never looked back. Join me as I explore the most adventurous destinations on the planet.</p>
+                            <a href="#about" class="btn-small">Read More</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="categories">
+                            <li><a href="#">Hiking <span>(24)</span></a></li>
+                            <li><a href="#">Rock Climbing <span>(12)</span></a></li>
+                            <li><a href="#">Scuba Diving <span>(8)</span></a></li>
+                            <li><a href="#">Wildlife Safaris <span>(15)</span></a></li>
+                            <li><a href="#">Budget Travel <span>(32)</span></a></li>
+                            <li><a href="#">Travel Tips <span>(19)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3>Popular Posts</h3>
+                        <div class="popular-post">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Mountain landscape">
+                            <div class="post-info">
+                                <h4><a href="#">How to Pack Light for Long-Term Travel</a></h4>
+                                <p class="meta">June 2, 2023</p>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Desert landscape">
+                            <div class="post-info">
+                                <h4><a href="#">Surviving the Sahara: My Desert Trek</a></h4>
+                                <p class="meta">May 18, 2023</p>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Mountain hut">
+                            <div class="post-info">
+                                <h4><a href="#">Best Mountain Huts Around the World</a></h4>
+                                <p class="meta">April 30, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3>Subscribe</h3>
+                        <p>Get the latest adventures straight to your inbox</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Your Email">
+                            <button type="submit" class="btn-small">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Traveler with backpack">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Wanderlust Adventures</h2>
+                    <p>Wanderlust Adventures began as a personal travel diary in 2015 and has grown into a community of adventure seekers from around the world. Our mission is to inspire responsible travel to wild places while providing practical advice to help you plan your own adventures.</p>
+                    <p>We believe that adventure travel should be accessible to everyone, regardless of budget or experience level. Our team of writers includes seasoned mountaineers, scuba instructors, and long-term backpackers who share their expertise to help you travel safely and sustainably.</p>
+                    <p>When we're not on the road, we're based in Boulder, Colorado, where we test gear, plan future expeditions, and share stories with fellow travelers.</p>
+                    <a href="#" class="btn">Meet the Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Adventure St, Boulder, CO 80302</p>
+                    <p><i class="fas fa-envelope"></i> hello@wanderlustadventures.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.417041807413!2d-105.2704036846166!3d40.01748697941696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bec4719e5f3f3%3A0x3d3f3a3a3a3a3a3a!2sBoulder%2C%20CO!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Adventure Community</h2>
+                <p>Subscribe to receive monthly travel inspiration, exclusive tips, and special offers</p>
+                <form>
+                    <input type="email" placeholder="Your Email Address">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
-            <div class="footer-columns">
-                <div class="footer-column">
-                    <h4>Adventure Seekers</h4>
-                    <p>Sharing our passion for adventure travel and helping others explore the world responsibly.</p>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Wanderlust Adventures</h3>
+                    <p>Inspiring adventure travel since 2015. Join us as we explore the most breathtaking destinations on Earth.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
-                <div class="footer-column">
-                    <h4>Quick Links</h4>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="destinations.html">Destinations</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe for travel tips and updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email">
-                        <button type="submit">Subscribe</button>
-                    </form>
+                <div class="footer-links">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Hiking</a></li>
+                        <li><a href="#">Rock Climbing</a></li>
+                        <li><a href="#">Scuba Diving</a></li>
+                        <li><a href="#">Wildlife Safaris</a></li>
+                        <li><a href="#">Budget Travel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Adventure St, Boulder, CO</p>
+                    <p><i class="fas fa-envelope"></i> hello@wanderlustadventures.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2023 Adventure Seekers. All rights reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Wanderlust Adventures. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
 
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+
     <script src="index.js"></script>
+
 </body>
 </html>
