@@ -147,11 +147,28 @@ nav ul li a:hover:after {
 }
 
 @media (max-width: 560px) {
+  
+    .header__container{
+        margin: 0 .5rem;
+        position: relative;
+    }
     .header__nav{
         display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--light-color);
+        height: 100vh;
     }
     .header__nav ul{
         display: block;
+    }
+
+    .header__logo{
+        font-size: .6rem;
+    }
+    .header__logo p{
+        font-size: .7rem;
     }
 
     .search-box{
