@@ -1,9 +1,10 @@
 let menu = document.querySelector('.header__nav')
+let menuLinks = document.querySelector('.menu__links')
 
 console.log(menu)
 
 
-menu.addEventListener("click",()=>{
-    menu.display = "block"
-    co
+menuLinks.addEventListener("click",()=>{
+    
+    console.log("button clicked")
 })
