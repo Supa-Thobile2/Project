@@ -12,12 +12,19 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Wanderlust Adventures</h1>
-                <p>Discover the world one adventure at a time</p>
+
+      
+        <div class="header__container">
+            <div class="header__logo">
+                <h1>Adventure Seekers</h1>
+                <p>Explore the extraordinary</p>
+
             </div>
-            <nav>
+            <nav class="header__nav">
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#destinations">Destinations</a></li>
@@ -25,6 +32,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+
             </nav>
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -347,6 +355,7 @@
         </div>
     </footer>
 
+
     <script>
         // Mobile menu toggle
         document.querySelector('.mobile-menu').addEventListener('click', function() {
@@ -359,5 +368,8 @@
             header.classList.toggle('scrolled', window.scrollY > 50);
         });
     </script>
+
+    <script src="index.js"></script>
+
 </body>
 </html>
