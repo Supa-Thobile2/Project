@@ -21,6 +21,15 @@ body {
     background-color: #f9f9f9;
 }
 
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -66,30 +75,31 @@ header {
     padding: 15px 0;
 }
 
-.logo h1 {
+.hearder__logo h1 {
     color: var(--dark-color);
-    font-size: 2rem;
+    font-size: .98rem;
 }
 
-.logo p {
+.header__logo p {
     color: var(--text-light);
     font-size: 0.9rem;
+    margin: 0;
 }
 
-nav {
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
 }
 
-nav ul {
+.header__nav ul {
     display: flex;
     list-style: none;
 }
 
-nav ul li {
-    margin-right: 20px;
+.header__nav ul li {
+    margin: 20px;
 }
 
 nav ul li a {
@@ -134,4 +144,35 @@ nav ul li a:hover:after {
     padding: 8px 15px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  
+    .header__container{
+        margin: 0 .5rem;
+        position: relative;
+    }
+    .header__nav{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--light-color);
+        height: 100vh;
+    }
+    .header__nav ul{
+        display: block;
+    }
+
+    .header__logo{
+        font-size: .6rem;
+    }
+    .header__logo p{
+        font-size: .7rem;
+    }
+
+    .search-box{
+        display: none;
+    }
+    
 }
