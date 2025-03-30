@@ -37,6 +37,8 @@ body {
     padding: 0 15px;
 }
 
+
+
 a {
     text-decoration: none;
     color: var(--primary-color);
@@ -173,6 +175,14 @@ nav ul li a:hover:after {
 
     .search-box{
         display: none;
+    }
+
+
+
+
+    .container{
+        padding: 0;
+        margin: 0;
     }
     
 }
