@@ -138,7 +138,7 @@ header {
     position: sticky;
     width: 100%;
     
-    height: 8rem;
+    height: 4rem;
     z-index: 1000;
     
     transition: all 0.3s ease;
@@ -974,7 +974,12 @@ footer {
         margin: .4rem;
     }
 
-
+    .featured-text h2{
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 4px;
+        line-height: 2rem;
+    }
 
     .blog-container,
      .featured-content,
@@ -988,6 +993,10 @@ footer {
     .btn{
         padding: .7rem;
         
+    }
+
+    .pagination{
+        margin: 20px 0;
     }
 
     .contact-content{
@@ -1057,8 +1066,14 @@ footer {
         display: block;
     }
 
+    .newsletter form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .btn{
-        padding: .7rem;
+        padding: 1.1rem;
         
     }
 
