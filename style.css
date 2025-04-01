@@ -56,29 +56,6 @@ body {
 }
 
 
-@media (max-width: 375px) {
-    .search-box{
-        display: none;
-    }
-
-    .header__nav{
-        display: none;
-    }
-
-    .header__nav ul{
-        display: block;
-    }
-
-    .header__logo h1{
-        font-size: 1.2rem;
-    }
-}
-
-
-
-
-
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -944,7 +921,145 @@ footer {
 
 /* Responsive Styles */
 
+@media (max-width : 375px) {
 
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        padding: .8rem;
+    }
+
+    .header__logo h1{
+        font-size: 1.1rem;
+    }
+
+    .header__logo p{
+        font-size: .8rem;
+    }
+
+
+    .search-box{
+        display: none;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .hero__content h2{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .hero__content h1{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .hero__content p{
+        font-size: .9rem;
+        font-weight: 700;
+        letter-spacing: .2px;
+        margin: .4rem;
+    }
+
+
+
+    .blog-container,
+     .featured-content,
+      .post,
+      .popular-post,
+      .about-content,
+      .subscribe-form{
+        display: block;
+    }
+
+    .btn{
+        padding: .7rem;
+        
+    }
+
+    .contact-content{
+        display: block;
+    }
+
+    .footer-bottom{
+        display: block;
+    }
+
+    
+}
+
+
+@media (max-width: 568px) {
+
+    header{
+        padding: .8rem;
+    }
+
+    .header__logo h1{
+        font-size: 1.1rem;
+    }
+
+    .header__logo p{
+        font-size: .8rem;
+    }
+
+
+    .search-box{
+        display: none;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .hero__content h2{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .hero__content h1{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .hero__content p{
+        font-size: .9rem;
+        font-weight: 700;
+        letter-spacing: .2px;
+        margin: .4rem;
+    }
+
+
+
+    .blog-container,
+     .featured-content,
+      .post,
+      .popular-post,
+      .about-content,
+      .subscribe-form{
+        display: block;
+    }
+
+    .btn{
+        padding: .7rem;
+        
+    }
+
+    .contact-content{
+        display: block;
+    }
+
+    .footer-bottom{
+        display: block;
+    }
+    
+}
 
 
 
