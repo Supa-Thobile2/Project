@@ -788,6 +788,8 @@ nav ul li a:hover::after {
 
 .newsletter form {
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -929,6 +931,11 @@ footer {
         box-sizing: border-box;
     }
 
+    section{
+        margin: 0;
+        padding: 0;
+    }
+
     header{
         padding: .8rem;
     }
@@ -994,6 +1001,10 @@ footer {
 
     .contact-content{
         display: block;
+    }
+
+    .newsletter form{
+        width: 100%;
     }
 
     .footer-bottom{
