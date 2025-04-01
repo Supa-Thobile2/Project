@@ -1055,8 +1055,14 @@ footer {
         display: block;
     }
 
+    .newsletter form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .btn{
-        padding: .7rem;
+        padding: 1.1rem;
         
     }
 
